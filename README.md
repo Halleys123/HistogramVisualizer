@@ -1,3 +1,5 @@
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 # Image Histogram Plot
 
 This program allows you to load an image, display it in a window, and show its histogram in another window. It is designed to run on Windows.
@@ -43,6 +45,12 @@ After building the project, you can run the executable:
 2. Enter the path of the image you want to load in the text field.
 3. Click the "Load Image" button.
 4. Two new windows will appear: one displaying the image and the other displaying the histogram of the image.
+
+## Sample
+
+![Load Panel](./images/load_panel.png)
+![Histogram](./images/histogram.png)
+![Image](./images/file_image.png)
 
 ## License
 

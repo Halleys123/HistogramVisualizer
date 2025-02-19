@@ -82,6 +82,11 @@ LRESULT CALLBACK ImgWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         params = (ChildWindowParams *)((LPCREATESTRUCT)lParam)->lpCreateParams;
         break;
     }
+    case WM_SIZE:
+    {
+        InvalidateRect(hwnd, NULL, FALSE);
+        break;
+    }
     case WM_PAINT:
     {
         PAINTSTRUCT ps;

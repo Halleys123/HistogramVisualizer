@@ -39,6 +39,6 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
         TranslateMessage(&msg);
         DispatchMessage(&msg);
     }
-
+    ExitProcess(0);
     return msg.wParam;
 }
