@@ -1,0 +1,6 @@
+*.exe
+*.obj
+*.so
+*.dll
+
+auto_build/**
