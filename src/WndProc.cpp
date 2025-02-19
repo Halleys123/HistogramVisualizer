@@ -65,6 +65,11 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         PostQuitMessage(0);
         break;
     }
+    case WM_QUIT:
+    {
+        ExitProcess(0);
+        break;
+    }
     default:
         return DefWindowProcA(hwnd, msg, wParam, lParam);
     }
