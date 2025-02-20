@@ -49,8 +49,11 @@ After building the project, you can run the executable:
 ## Sample
 
 ![Load Panel](./images/load_panel.png)
-![Histogram](./images/histogram.png)
-![Image](./images/file_image.png)
+
+| Image                             | Histogram                            |
+| --------------------------------- | ------------------------------------ |
+| ![Image](./images/file_image.png) | ![Histogram](./images/histogram.png) |
+| ![alt text](images/imageTwo.png)  | ![alt text](images/imageTwoHist.png) |
 
 ## License
 
